@@ -1,0 +1,3 @@
+{
+  "initial_prompt": "=== TRADING STATE ===\nDay: {day}\nPortfolio Holdings Value: ${portfolio_value:.2f}\nAvailable Cash: ${cash:.2f}\nHoldings: {holdings}\nCurrent Prices: {prices}\nDetailed Price Data (with moving averages):\n{price_data}\nSymbols: {candidate_symbols}\n\n=== YOUR DECISION ===\nAnalyze the price data with moving averages to identify trading opportunities.\nChoose your action:\n- think: Analyze the market further\n- observe: Get more data\n- done: Ready to decide\n\nRespond ONLY with JSON:\n{{\"action\": \"think\" or \"observe\" or \"done\", \"reasoning\": \"brief explanation\"}}"
+}

@@ -1,0 +1,3 @@
+{
+  "template": "=== YOUR ANALYSIS SO FAR ===\n{trajectory_context}\n\n=== NEXT STEP ===\nChoose:\n- think: Continue analyzing\n- observe: Need more data\n- done: Ready to decide\n\nRespond ONLY with JSON:\n{{\"action\": \"think\" or \"observe\" or \"done\", \"reasoning\": \"what you'll do next\"}}"
+}

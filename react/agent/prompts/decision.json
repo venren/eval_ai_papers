@@ -1,0 +1,3 @@
+{
+  "decision_prompt": "=== FINAL DECISION ===\nDay: {day}\nPortfolio Holdings Value: ${portfolio_value:.2f}\nAvailable Cash: ${cash:.2f}\nHoldings: {holdings}\nCurrent Prices: {prices}\nDetailed Price Data (with moving averages):\n{price_data}\nYour reasoning:\n{trajectory}\n\n=== MAKE DECISION ===\nBased on the price data analysis and available cash, make your trading decision.\nRespond ONLY with JSON:\n{{\n\"action\": \"decide\",\n\"trade_action\": \"buy\" or \"sell\" or \"done\",\n\"symbol\": \"AAPL\" or \"\",\n\"quantity\": 5 or 0,\n\"reasoning\": \"why\"\n}}"
+}
